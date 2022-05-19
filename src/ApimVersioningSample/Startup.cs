@@ -39,8 +39,6 @@ namespace ApimVersioningSample
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApimVersioningSample", Version = "v1" });
                 c.SwaggerDoc("v2", new OpenApiInfo { Title = "ApimVersioningSample", Version = "v2" });
-
-
             });
         }
 
